@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Prueba.css">
+    <title>Viña Outlet Park</title>
+    <script src="https://kit.fontawesome.com/f73ab5b81d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- con la etiqueta Header se hace todo el encabezado de la pagina -->
+    <header>
+        <div class="logo"> <!--"class" es para darle una clase para que sea más sencillo identificar en el css-->
+            <img src="img/1.jpg" alt="logo de el outlet"> <!--para la imagen del logo (y si no carga que salga el "alt")-->
+        </div>
+        <nav> <!--con la etiqueta nav pondre el listado del encabezado con sus nombres e imagenes-->
+            <a href="#tienda" class="nav-link"><img src="img/2.ico">Tiendas</a> <!--esta etiqueta sirve para poner tanto icono como el nombre en el encabezado-->
+            <a href="#panoramas" class="nav-link"><img src="img/3.ico">Panoramas</a> <!--esta etiqueta sirve para poner tanto icono como el nombre en el encabezado-->
+            <a href="#ubicaciones" class="nav-link"><img src="img/4.ico"> Ubicación</a> <!--esta etiqueta sirve para poner tanto icono como el nombre en el encabezado-->
+        </nav>
+    </header>
+    <!--con este section podemos crear un slider una imagen que cambia para mostrar diferentes imagenes utilizando el javascript del final-->
+    <section id="slider">
+        <img src="img/5.jpg" alt="imagen5" height="650" width="1515" alt="Slider 1">
+        <img src="https://cdn.shopify.com/s/files/1/0229/0839/files/mockup-camiseta.jpg?v=1618994306" alt="imagen5" height="650" width="1515" alt="Slider 2">
+        <img src="https://images.vexels.com/media/users/3/295587/raw/94ad937fc4700955926d7560baeff990-mockup-de-ropa-profesional-y-camiseta.jpg" alt="imagen5" height="650" width="1515" alt="Slider 3">
+    </section>
+    <!--con este div etiqueta pondre la imagen del carrito fake y ajustare su altura y ancho con "height" y "width" respectivamente -->
+    <!-- aquí pondre todo lo que viene la pag debajo del la imagenes grande junto al mapa de tiendas-->
+    <div class="imagenes">
+        <h2>TIENDAS</h2> <!--titulo-->
+        <div class="img">
+            <img src="img/tienda1.png" alt="tienda1" height="290px" width="364.8px"> <!--imagen de tiendas 1 con su respectivo tamaño-->
+            <img src="img/tienda2.png" alt="tienda2" height="290px" width="364.8px"> <!--imagen de tiendas 2 con su respectivo tamaño-->
+            <img src="img/tienda3.png" alt="tienda3" height="290px" width="374.8px"> <!--imagen de tiendas 3 con su respectivo tamaño-->
+            <img src="img/tienda4.png" alt="tienda4" height="290px" width="374.8px"> <!--imagen de tiendas 4 con su respectivo tamaño-->
+        <h2>PANORAMAS</h2> <!--titulo de panorama-->
+            <img src="img/programa1.png" alt="panorama1" height="280px" width="364.8px"> <!--imagen de panorama 1 con su respectivo tamaño-->
+            <img src="img/programa2.png" alt="panorama2" height="280px" width="364.8px"> <!--imagen de panorama 2 con su respectivo tamaño-->
+            <img src="img/programa3.png" alt="panorama3" height="280px" width="374.8px"> <!--imagen de panorama 3 con su respectivo tamaño-->
+            <img src="img/programa4.png" alt="panorama4" height="280px" width="374.8px"> <!--imagen de panorama 4 con su respectivo tamaño-->
+            <img src="img/programa5.png" alt="panorama5" height="280px" width="354.8px"> <!--imagen de panorama 5 con su respectivo tamaño-->
+            <img src="img/programa6.png" alt="panorama6" height="280px" width="354.8px"> <!--imagen de panorama 6 con su respectivo tamaño-->
+            <img src="img/programa7.png" alt="panorama6" height="280px" width="354.8px"> <!--imagen de panorama 7 con su respectivo tamaño-->
+        <h2>UBICACIÓN DE LAS TIENDAS</h2><!--titulo de mapa de tiendas-->
+            <img src="img/mapatienda1.png" alt="tiendas" height="600px" width="1249.2px"><!-- esta imagen se representa como el mapa de las tiendas-->
+        </div>
+    </div>
+
+    <!-- PIE DE PAGINA -->
+<footer class="bajito">
+    <div class="ubicaciones"> <!-- con este div se mostrara todas las ubicaciones disponibles -->
+        <h2>LOCOMOCIÓN</h2> <!-- titulo -->
+        <img src="img/ubi1.png" alt="de valpo" height="93.5px" width="359.8px">
+        <img src="img/ubi2.png" alt="de viña" height="93.5px" width="359.8px">
+        <img src="img/ubi3.png" alt="de concon" height="93.5px" width="359.8px">
+        <img src="img/ubi4.png" alt="de peñablanca" height="93.5px" width="359.8px">
+    </div>
+    <div class="container_footer"> <!--con este div guardare todo el contenedor de los footers que se crearon-->
+        <div class="box__footer">
+            <h2>DIRECCIÓN</h2>
+            <a href="#"><img src="img/lugar.png" alt="icono" width="15px" height="17.5px">Camino Internacional 2440,</a> <!-- para colocar una el texto y el icono encima de la direccion-->
+            <a href="#">Reñaca Alto, Viña Del Mar</a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13386.779508082554!2d-71.499133!3d-32.985451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dc684599dc21%3A0x188987bc098a2a37!2sCam.%20Internacional%202440%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses-419!2sus!4v1650423089563!5m2!1ses-419!2sus" width="435.75" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!--la direccion puesta directo de google maps-->
+        </div>
+        <!--creacion de las cajas de "horario"y"contacto"-->
+        <div class="box__footer">
+            <h2>HORARIO</h2> <!--titulo de horario-->
+            <!--listas de texto del recuadro "horario"-->
+            <a href="#"><strong>Lunes a domingo</strong></a> <!--la etiqueta <strong> funciona para remarcar las letras dentro del apartado-->
+            <a href="#"> de 10:00 a 20:00hrs.</a>
+            <a href="#"><strong>Estacionamiento</strong></a> <!--la etiqueta <strong> funciona para remarcar las letras dentro del apartado-->
+            <a href="#"><strong>GRATIS</strong> los primeros 30 minutos</a> <!--la etiqueta <strong> funciona para remarcar las letras dentro del apartado-->
+            <a href="#">cada ½ de hora =$500 pesos</a>
+            <a href="#">Tarifa máxima =$3.500 pesos</a>
+        </div>
+        <div class="box__footer">
+            <h2>CONTACTO</h2><!--titulo de Contacto-->
+            <a href="#"><img src="img/correo.png" alt="correo" width="15px" height="15px">novedades@outletpark.cl</a> <!-- contacto correo con icono -->
+            <a href="#"><img src="img/telefono.png" alt="telefono" width="15px" height="15px">32 251 4100</a> <!-- contacto telefono con icono-->
+            <a href="#"><img src="img/bandejaRobada.png" alt="bandeja" width="15px" height="15px">Enviar mensaje</a><!--contacto  bandeja con icono-->
+            <a href="#"><i class="fab fa-facebook-square"></i></a><!--esta etiqueta <i class="fab fa-facebook-square"> funciona para agregar el logo de facebook-->
+            <a href="#"><i class="fab fa-instagram-square"></i></a><!--esta etiqueta <i class="fab fa-facebook-square"> funciona para agregar el logo de instagram-->
+        </div>
+    </div>
+    <h2 class="final">© 2023 Viña Outlet Park – Todos los derechos reservados. Diseñado por WORKLab</h2> <!--final de pagina con derechos de autor -->
+</footer>
+<script>
+    let sliderIndex = 0;
+    const sliderImages = document.querySelectorAll("#slider img");
+    const sliderInterval = setInterval(() => {
+        sliderIndex++;
+        if (sliderIndex >= sliderImages.length) {
+            sliderIndex = 0;
+        }
+        for (let i = 0; i < sliderImages.length; i++) {
+            sliderImages[i].style.display = "none";
+        }
+        sliderImages[sliderIndex].style.display = "block";
+    }, 3000);
+  </script>
+</body>
+</html>

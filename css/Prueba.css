@@ -1,0 +1,115 @@
+
+body{
+    font-family: sans-serif; /*Ajusta el estilo de letra*/
+    margin: 0; /*ajusta los margenes*/
+    background-color: #FBF1FF ; /*ajusta el color del fondo*/
+}
+
+a{
+    text-decoration: none; /*decoracion del texto*/
+    color: black; /*el color que tendra el texto*/
+}
+header{
+    display: flex; /*para mostrar los elementos en manera horizontal*/
+    height: 70px;/* marca la altura del header*/
+    justify-content: space-between; /*ubica los elementos en el ej principal (cada uno en una  esquina)*/
+    background-color: white;/* Colocar un fondo al menu superior*/
+    align-items: center; /*alinia los elementos verticalmente*/
+    padding: 10px; /*para separar los elementos del orden*/
+}
+.logo{
+    display: flex;/*para mostrar los elementos en manera horizontal*/
+    align-items: center; /*aliniar los items verticalmente*/
+    margin-left: 100px; /*para mover la imagen verticalmente hacia la izquierda*/
+}
+.logo img{
+    line-height: 25.2px;/* marca la altura de la imagen*/
+    margin-right: 10px; /*el margen derecho*/
+}
+
+nav a{
+    font-weight: 800; /*ajusta el grosor de las letras*/
+    font-size: 20px; /*ajusta el tamaño de las letras*/
+    line-height: 20px;/* marca la altura de la imagen*/
+    text-align: left; /*en que parte del div se ubicara el texto*/
+    padding-right: 30px; /*separaciones a la derecha*/
+    align-items: center;  /*para que todo este centrado*/
+    margin-right: 200px; /*el margen derecho*/
+}
+.cuerpo{
+    margin: 0;/*ajusta los margenes*/
+    align-items: center;/*para que todo este centrado*/
+}
+
+.imagenes{
+    font-family: sans-serif; /*Ajusta el estilo de letra*/
+    font-weight: 600; /*ajusta el grosor de las letras*/
+    font-size: 15px; /*ajusta el tamaño de las letras*/
+    line-height: 40px;/* marca la altura de la imagen*/
+    padding-left: 20px;/*separaciones a la izquierda*/
+    background-color: #f5edff ; /*ajusta el color del fondo*/
+    margin: auto; /*ajusta el margen automaticamente*/
+}
+
+.bajito{
+    background-color: #3a328a; /*ajusta el color del fondo*/
+    color: white; /*cambia el color de las letras*/
+}
+
+.ubicaciones{
+    font-family: sans-serif; /*Ajusta el estilo de letra*/
+    font-size: 25px; /*ajusta el tamaño de las letras*/
+    font-weight: 600; /*ajusta el grosor de las letras*/
+    text-align: center; /*sirve para centrar el texto*/
+}
+
+footer{
+    width: 100%; /*para modificar el ancho y que recubra toda pantalla*/
+    padding: 50px 0px; /*para separar los elementos del orden*/
+}
+
+.container_footer{
+    display: flex; /*para mostrar los elementos en manera horizontal*/
+    flex-wrap: wrap; /*cuando se pongan debajo de cada una si no caben en una sola linea*/
+    justify-content: space-between; /*centrar las listas y mantengan una posicion en especifico*/
+    max-width: 1250px; /*para que tengan  una limitacion al moverse*/
+    margin: auto; /*para que los contenedores se mantengan centrados*/
+    margin-top: 20px; /*para crear un pequeño espacio arriba para no topar con la locomocion*/
+    text-align: center; /*sirve para centrar el texto*/
+}
+
+.box__footer{
+    display: flex; /*para mostrar los elementos en manera horizontal*/
+    flex-direction: column; /*para que el texto y las listas se pongan en columna dentro de los recuadros*/
+    padding: 50px; /*para separar los elementos del orden*/
+    position: relative; /*para poder mover los recuadros de Dirección, contacto y horario*/
+}
+
+
+
+.final{
+    text-align: center; /*para ajustar el texto en el centro*/
+    font-size: 14px; /*ajusta el tamaño de las letras*/
+    font-weight: 700; /*ajusta el grosor de las letras*/
+}
+.slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider img.active {
+    opacity: 1;
+}
